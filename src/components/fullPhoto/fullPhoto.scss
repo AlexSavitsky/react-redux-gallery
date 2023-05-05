@@ -1,0 +1,22 @@
+.full-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(78, 78, 78, 0.9);
+
+  .go-back-button {
+    position: fixed;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    top: 30px;
+    right: 30px;
+
+    color: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
